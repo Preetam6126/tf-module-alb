@@ -4,6 +4,6 @@ output "alb" {
 
 output "listener" {
     
-    value = aws_lb_listener
+    value = aws_lb_listener.main
     
 }
